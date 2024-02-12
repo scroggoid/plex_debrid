@@ -1363,7 +1363,7 @@ class media:
             # Set the episodes parent releases to be the seasons parent releases:
             scraped_releases = copy.deepcopy(parentReleases)
             # If there is more than one episode
-            if len(self.Episodes) > 2:
+            if len(self.Episodes) > 9999:
                 if self.season_pack(scraped_releases):
                     debrid_downloaded, retry = self.debrid_download()
                     # if scraper.traditional() or debrid_downloaded:
